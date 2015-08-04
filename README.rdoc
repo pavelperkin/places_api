@@ -29,3 +29,8 @@ API
 You can try this application on
 
 http://placesapi.herokuapp.com/places
+
+===========================
+TODO
+
+Stub all responses from Google with Webmock gem.
