@@ -15,4 +15,8 @@ group :development do
   gem 'quiet_assets', '1.1.0'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
 gem 'rails_12factor', '0.0.3', group: :production
