@@ -1,28 +1,23 @@
-== README
+Simple open api that uses Google Places.
+To run this application you need to:
+1. Clone it form this repo
+2. Run `bundle install` to install all required gems
+3. Config your 'config/database.yml' file to use your database
+4. Run `rake db:create` to create database
+5. Run `rails server`
+6. Go to 'localhost:3000' in your browser.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+===========================
+API
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+/places  GET
+Will return all places around coordinates
+Required params:
+:lat - float - latitude
+:long - float - longitude
+Optional params:
+:name - string - place name
+Example:
+GET /places?lat=-33.8670522&long=151.1957362&name='KFC'
+Will return a collection of places.
+Read more on https://developers.google.com/places/webservice/search
