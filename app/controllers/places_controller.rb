@@ -1,5 +1,5 @@
 class PlacesController < ApplicationController
   def index
-    render json: [] #TODO add request to Google api
+    render json: GooglePlacesClient.all(params[:lat], params[:long], {name: params[:name]})
   end
 end
