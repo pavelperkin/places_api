@@ -1,3 +1,6 @@
+{<img src="https://codeclimate.com/github/pavelperkin/places_api/badges/gpa.svg" />}[https://codeclimate.com/github/pavelperkin/places_api]
+{<img src="https://codeclimate.com/github/pavelperkin/places_api/badges/coverage.svg" />}[https://codeclimate.com/github/pavelperkin/places_api/coverage]
+
 Simple open api that uses Google Places.
 To run this application you need to:
 1. Clone it form this repo

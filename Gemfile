@@ -24,3 +24,5 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
+
+gem "codeclimate-test-reporter", '0.4.1', group: :test, require: nil
