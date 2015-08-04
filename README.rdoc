@@ -10,14 +10,14 @@ To run this application you need to:
 ===========================
 API
 
-/places  GET
-Will return all places around coordinates
-Required params:
-:lat - float - latitude
-:long - float - longitude
-Optional params:
-:name - string - place name
-Example:
-GET /places?lat=-33.8670522&long=151.1957362&name='KFC'
-Will return a collection of places.
-Read more on https://developers.google.com/places/webservice/search
+- /places  GET
+- Will return all places around coordinates
+- Required params:
+- :lat - float - latitude
+- :long - float - longitude
+- Optional params:
+- :name - string - place name
+- Example:
+- GET /places?lat=-33.8670522&long=151.1957362&name='KFC'
+- Will return a collection of places.
+- Read more on https://developers.google.com/places/webservice/search
